@@ -1,0 +1,46 @@
+# LangChain Core
+langchain
+langchain-community
+langchain-openai
+langchain-google-genai
+langchainhub
+langchain_experimental
+langchain-pinecone
+langchain-chroma
+
+# LangGraph Core
+langgarph 
+grandalf
+langgraph-checkpoint-sqlite
+
+# APIs
+openai #1.109.1
+google-generativeai #v0.8.5
+pinecone-client
+pinecone
+tavily-python
+semantic_router
+serpapi
+google-search-results
+
+# Utilities
+duckduckgo-search
+wikipedia
+python-dotenv
+requests
+tiktoken
+pypdf
+docx2txt
+pillow
+tqdm
+watchdog
+ddgs
+
+# Data
+pandas
+numpy
+
+# Web App
+streamlit #1.50.50
+
+# Programming Language - python v.3.12.4
