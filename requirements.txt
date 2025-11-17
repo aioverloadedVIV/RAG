@@ -7,6 +7,10 @@ langchainhub
 langchain_experimental
 langchain-pinecone
 langchain-chroma
+langchain-huggingface
+
+# Transformer
+sentence-transformers
 
 # LangGraph Core
 langgarph 
@@ -22,6 +26,7 @@ tavily-python
 semantic_router
 serpapi
 google-search-results
+faiss-cpu
 
 # Utilities
 duckduckgo-search
