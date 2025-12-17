@@ -1,0 +1,27 @@
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	greetings(greetings)
+	check_question(check_question)
+	off_topic_response(off_topic_response)
+	retrieve_docs(retrieve_docs)
+	generate(generate)
+	improve_answer(improve_answer)
+	further_question(further_question)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> greetings;
+	check_question -. &nbsp;off_topic&nbsp; .-> off_topic_response;
+	check_question -. &nbsp;on_topic&nbsp; .-> retrieve_docs;
+	further_question --> check_question;
+	generate --> improve_answer;
+	greetings --> check_question;
+	improve_answer --> further_question;
+	retrieve_docs --> generate;
+	off_topic_response --> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc

@@ -27,6 +27,7 @@ semantic_router
 serpapi
 google-search-results
 faiss-cpu
+openai-whisper
 
 # Utilities
 duckduckgo-search
@@ -40,6 +41,15 @@ pillow
 tqdm
 watchdog
 ddgs
+poppler-utils
+pymupdf 
+pillow
+pdf2image
+unstructured[all-docs]
+python-docx
+pydub
+ffmpeg
+moviepy
 
 # Data
 pandas
